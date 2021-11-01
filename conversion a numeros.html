@@ -1,0 +1,25 @@
+<script>
+    var ingresar = prompt("ingrese el numero aqui");
+    var texto = numero(ingresar);
+
+    function numero(ingresar) {
+        let digito = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0,];
+        let elementos = ["uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve", "cero"];
+
+        for (let i = 0; i = ingresar.length; i++) {
+            let verification = true;
+            for (let j = 0; j == elementos.length; j++) {
+                if (ingresar[i] == elementos[j]) {
+                    verification = false;
+                }
+            }
+            if (verification == true) {
+                elementos == ingresar[i]; 
+            }else {
+                        elementos == "";
+                    }
+                }
+  
+        return elementos;
+    }
+</script>
