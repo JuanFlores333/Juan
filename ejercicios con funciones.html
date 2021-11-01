@@ -1,0 +1,98 @@
+<script>
+    dia1();
+
+    function dia1(){
+        console.log("lunes");
+        dia2();
+    }
+
+    function dia2(){
+        console.log("martes");
+        dia3();
+    }
+    function dia3(){
+        console.log("miercoles");
+        dia4();
+    }
+    function dia4(){
+        console.log("jueves");
+        dia5();
+    }
+    function dia5(){
+        console.log("viernes");
+    
+    }
+   
+
+  var h = Juego();
+
+function Juego(Gears){
+console.log("gears of war judment")
+}
+
+
+sumas();
+    function sumas() {
+    for (a=0; a<=5; a++){
+    for (b=1; b<=5; b++){
+        var suma= a+b
+        console.log(a+"+"+b+"="+ suma);
+    }
+    }
+    }
+
+
+    var g = fiesta();
+
+function fiesta(favorita){
+console.log("navidad")
+}
+
+var g = dulces();
+
+function dulces(chocolate){
+console.log("hersheys")
+}
+var preg = prompt("multiplicacion 1 divicion 2");
+    var u = preg;
+    var a = numerov();
+    var e = 15;
+    console.log("numero alteratorio: " +a);
+    console.log("numero multiplicador: " +e);
+    
+    var total = a * e;
+    console.log(total); 
+
+    
+    var o =  nuevNum();
+    var w = 15;
+    console.log("numero alteratorio: " +o);
+    console.log("numero divisor: " +w);
+    
+    var total1 = o / w;
+    console.log(total1);
+
+    
+    switch (u) {
+        case 1:
+           numerov();
+            break;
+        case 2:
+           nuevNum();
+            break;
+        default:
+            console.log("");
+            break;
+    }
+    
+    function numerov(){
+       var num = Math.floor(Math.random()*15);
+       return num;
+    }
+
+    function nuevNum(){
+        var numerow = Math.floor(Math.random()*15);
+        return numerow;
+    }
+
+</script>

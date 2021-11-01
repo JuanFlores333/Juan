@@ -1,0 +1,15 @@
+<SCRIPt>
+    var x=parseInt(prompt("cuantos participantes"));
+    var nombre=[];
+    for(i=1;i<=x;i++){
+        var h =prompt("ingrese nombre");
+        nombre.push(h);
+    }
+alea (nombre);
+function alea(o){
+    b = Math.floor(Math.random()*o.length);
+    c= o[b];
+    alert("El ganador es :" + c);
+    console.log(c);
+}
+</SCRIPt>
