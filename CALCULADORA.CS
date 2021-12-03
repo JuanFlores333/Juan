@@ -1,26 +1,13 @@
-int x= [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-int y= promt("INGRESE EL PRIMER NUMERO");
-int z= promt("INGRESE EL SEGUNDO NUMERO");
-int w= promt("INGRESE LA OPERACION A REALIZAR");
-function operacion(x, y, z, w){
-    if(w=="suma" || "SUMA" || "Suma"){
-        console.log(y+z);
-    }
-    if(w=="resta" || "RESTA" || "Resta"){
-        console.log(y-z);
-    }
-    if(w=="multiplicacion" || "MULTIPLICACION" || "Multiplicacion"){
-        console.log(y*z);
-    }
-    if(w=="division" || "DIVISION" || "Division"){
-        console.log(y/z);
-    }
-    if(w=="porcentaje" || "PORCENTAJE" || "Porcentaje"){
-        console.log(y%z);
-    }
-    if(w=="potencia" || "POTENCIA" || "Potencia"){
-        console.log(Math.pow(y*y));
-    }
-    else{
-        console.log("ERROR");
-    }
+string ("ingrese un numero");
+int numero1 = int.Parse(Console.ReadLine());
+string ("ingrese otro numero");
+int numero2 = int.Parse(Console.ReadLine());
+int suma = numero1 + numero2;
+int resta = numero1 - numero2;
+int multiplicacion = numero1 * numero2;
+int division = numero1 / numero2;
+Console.WriteLine("la suma es: " + suma);
+Console.WriteLine("la resta es: " + resta);
+Console.WriteLine("la multiplicacion es: " + multiplicacion);
+Console.WriteLine("la division es: " + division);
+Console.ReadKey();
