@@ -5,8 +5,8 @@ namespace HOLA MUNDO
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("HOLA MUNDO");
-            Console.ReadKey();
+            System.Console.WriteLine("HOLA MUNDO");
+            System.Console.ReadKey();
         }
     }
 }
