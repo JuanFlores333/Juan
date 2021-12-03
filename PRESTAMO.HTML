@@ -1,0 +1,19 @@
+<SCRIpt>
+    var x= prompt("Ingrese el numero de prestatarios")
+    for( let i=1; i<=x; i++){
+    var usuario= prompt ("Ingrese su nombre")
+    var prestamo= prompt ("Ingrese el monto a prestar")
+    var plazo= prompt ("Ingrese el plazo en numero de meses")
+    var plazo1= prompt("plazos que debe")
+    var plazo2= prompt("plazos pagados")
+    
+    console.log("Usuario: " + usuario);
+    console.log("Monto a prestar: " + prestamo);
+    console.log("Plazo en meses: " + plazo);
+    console.log("Pagos por mes: " + (prestamo / plazo) + "$");
+    console.log("Debe " + plazo1 + " pagos");
+    console.log("Un total " + (plazo1 * (prestamo / plazo)) + "$");
+    console.log("A realizado " + plazo2 + " pagos");
+    console.log("Un total de " + (plazo2 * (prestamo / plazo)) + "$");
+    }
+</SCRIpt>
